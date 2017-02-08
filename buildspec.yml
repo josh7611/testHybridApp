@@ -12,4 +12,4 @@ phases:
       
   post_build:
     commands:
-      - ng test
+      - ng test --single-run
