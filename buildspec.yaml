@@ -1,0 +1,15 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - npm install
+  pre_build:
+    commands:
+      - ng test
+  build:
+    commands:
+      - ng build
+  post_build:
+    commands:
+  discard-paths: yes
