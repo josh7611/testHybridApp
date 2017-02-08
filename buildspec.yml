@@ -11,4 +11,3 @@ phases:
   build:
     commands:
       - ng build
-  discard-paths: yes
