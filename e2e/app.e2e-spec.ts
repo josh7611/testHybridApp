@@ -1,10 +1,10 @@
-import { OOHAPage } from './app.po';
+import { OohaAppPage } from './app.po';
 
-describe('OOHA App', function() {
-  let page: OOHAPage;
+describe('ooha-app App', function() {
+  let page: OohaAppPage;
 
   beforeEach(() => {
-    page = new OOHAPage();
+    page = new OohaAppPage();
   });
 
   it('should display message saying app works', () => {

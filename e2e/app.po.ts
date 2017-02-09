@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class OOHAPage {
+export class OohaAppPage {
   navigateTo() {
     return browser.get('/');
   }
