@@ -6,10 +6,12 @@ phases:
       - npm install
       - npm -g install @angular/cli
 
+  pre_build:
+    commands:
+      - ng test --single-run
+      
   build:
     commands:
       - ng build
       
-  post_build:
-    commands:
-      - ng test --single-run
+
